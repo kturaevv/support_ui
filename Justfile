@@ -10,3 +10,7 @@ dev:
 # Add shadcn component
 add:
     bunx shadcn-svelte@latest add 
+
+# Add route
+add-route arg:
+    mkdir -p src/routes/{{arg}}
